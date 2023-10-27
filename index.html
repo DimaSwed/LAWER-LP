@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Сайт на Bootstrap 4 + BEM</title>
+	</head>
+
+	<body>
+		<div id="toTop"><i class="fas fa-chevron-up"></i></div>
+		<header class="menu-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-2 logo-bar">
+						<img src="img2/logo new.png" alt="Юридическая помощь - логотип" class="logo" />
+						<button class="menu-icon"><i class="fas fa-bars"></i></button>
+					</div>
+					<div class="col-xl-8 ml-auto align-self-center">
+						<nav>
+							<ul class="menu d-flex justify-content-end">
+								<li class="menu__item">
+									<a href="/"><i class="fas fa-home"></i></a>
+								</li>
+								<li class="menu__item"><a href="#about">О нас</a></li>
+								<li class="menu__item"><a href="#service">Услуги</a></li>
+								<li class="menu__item"><a href="#portfolio">Отзывы</a></li>
+								<li class="menu__item"><a href="#blog">Блог</a></li>
+								<li class="menu__item"><a href="#contact">Контакты</a></li>
+								<li class="menu__item"><i class="fas fa-search"></i></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<h1 class="header__title">Юридические услуги</h1>
+						<p class="header__text">
+							юридическая компания для тех, кто умеет выбирать. 12 лет безукоризненной репутации и колоссального опыта, позволяющего решать юридические задачи любой сложности.
+						</p>
+						<button class="button">Услуги</button>
+						<button class="button">Обратиться</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="about" id="about">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8">
+						<h2 class="about__title">Почему нам доверяют</h2>
+						<p class="about__text">Клиент всегда получает поддержку и уверенность в долгосрочном видение, что позволяет принимать неочевидные и оптимальные решения в интересах клиента</p>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-xl-3 col-md-6">
+						<img class="about__icon" src="img2/icon 1.svg" alt="" />
+						<h3 class="about_h3">Большой опыт работы</h3>
+						<p class="about_text">Наша компания работает на рынке юридических услуг с 2014 года.</p>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<img class="about__icon" src="img2/icon 2.svg" alt="" />
+						<h3 class="about_h3">Высокие показатели</h3>
+						<p class="about_text">Участие в десятках дел, большое количество сопровожденных сделок.</p>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<img class="about__icon" src="img2/icon 3.svg" alt="" />
+						<h3 class="about_h3">Признание</h3>
+						<p class="about_text">Наша работа отмечена наградами, нас рекомендуют, к нам возвращаются.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="service">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8">
+						<h2 class="about__title">Наши услуги</h2>
+						<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-xl-4 col-md-6">
+						<div class="our_card">
+							<img class="about__icon" src="img2/product 1.svg" alt="Услуги" />
+							<h3 class="about_h3">Юридическое сопровождение бизнеса</h3>
+							<p class="about_text">От 10 000 руб.</p>
+							<button class="button-services">Читать далее</button>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-6">
+						<div class="our_card">
+							<img class="about__icon" src="img2/product 2.svg" alt="Услуги" />
+							<h3 class="about_h3">Обжалование действий постановлений.</h3>
+							<p class="about_text">От 25 000 руб.</p>
+							<button class="button-services">Читать далее</button>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-6">
+						<div class="our_card">
+							<img class="about__icon" src="img2/product 3.svg" alt="Услуги" />
+							<h3 class="about_h3">Поддержка бизнес-проектов под ключ</h3>
+							<p class="about_text">От 5 000 руб.</p>
+							<button class="button-services">Читать далее</button>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-6">
+						<div class="our_card">
+							<img class="about__icon" src="img2/product 4.svg" alt="Услуги" />
+							<h3 class="about_h3">Сопровождение сделок с недвижимостью</h3>
+							<p class="about_text">От 20 000 руб.</p>
+							<button class="button-services">Читать далее</button>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-6">
+						<div class="our_card">
+							<img class="about__icon" src="img2/product 5.svg" alt="Услуги" />
+							<h3 class="about_h3">Представительство в арбитражном суде</h3>
+							<p class="about_text">От 25 000 руб.</p>
+							<button class="button-services">Читать далее</button>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-6">
+						<div class="our_card">
+							<img class="about__icon" src="img2/product 6.svg" alt="Услуги" />
+							<h3 class="about_h3">Юридическая защита авторских прав</h3>
+							<p class="about_text">От 7 000 руб.</p>
+							<button class="button-services">Читать далее</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio" id="portfolio">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-9 col-md-6 portfolio_header">
+						<h2 class="about__title">Что говорят наши клиенты</h2>
+						<p class="about__text">Мы ценим каждый отзыв клиентов!</p>
+						<button val="on" class="button" filter="all">Все</button>
+						<button val="off" class="button" filter="wd">Физичесие лица</button>
+						<button val="off" class="button" filter="ud">Юридические лица</button>
+						<button val="off" class="button" filter="moc">Партнеры</button>
+					</div>
+				</div>
+				<div class="row filter aligh_img">
+					<div filter="wd" class="col-xl-4 col-md-6">
+						<img src="img2/client 1-min.jpg" alt="" />
+						<div class="text">
+							<h5>Физичесие лица</h5>
+							<p>Услуга 1</p>
+						</div>
+					</div>
+					<div filter="moc" class="col-xl-4 col-md-6">
+						<img src="img2/client 2-min.jpg" alt="" />
+						<div class="text">
+							<h5>Партнеры</h5>
+							<p>Услуга 2</p>
+						</div>
+					</div>
+					<div filter="wd" class="col-xl-4 col-md-6">
+						<img src="img2/client 3-min.jpg" alt="" />
+						<div class="text">
+							<h5>Физичесие лица</h5>
+							<p>Услуга 3</p>
+						</div>
+					</div>
+					<div filter="moc" class="col-xl-4 col-md-6">
+						<img src="img2/client 4-min.jpg" alt="" />
+						<div class="text">
+							<h5>Партнеры</h5>
+							<p>Услуга 4</p>
+						</div>
+					</div>
+					<div filter="ud" class="col-xl-4 col-md-6">
+						<img src="img2/client 5-min.jpg" alt="" />
+						<div class="text">
+							<h5>Юридические лица</h5>
+							<p>Услуга 5</p>
+						</div>
+					</div>
+					<div filter="ud" class="col-xl-4 col-md-6">
+						<img src="img2/client 6-min.jpg" alt="" />
+						<div class="text">
+							<h5>Юридические лица</h5>
+							<p>Услуга 6</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<button val="on" class="button" filter="all">Просмотреть всех</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="pricing">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8">
+						<h2 class="about__title">Услуги медиации</h2>
+						<h3 class="about_h3">Задачи медиации</h3>
+						<p class="about__text">
+							Разрешать споры и оказывать профессиональную помощь гражданам и предпринимателям, которые оказались в конфликте. При этом желание их решить и сохранить отношения выше, чем желание
+							судиться и тратить время и деньги на судебные споры. <br />
+							Задача медиатора привести спор к решению конфликта за один день с помощью техники и навыков профессионального переговорщика.
+						</p>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-xl-6 col-md-6">
+						<div class="price">
+							<div class="price__head">
+								<p>Медиация для бизнеса</p>
+							</div>
+							<div class="price__body">
+								<h3 class="about_h3">Какие споры решает медиация</h3>
+								<ul>
+									<li>конфликты с бизнес-партнерами;</li>
+									<li>арбитражные споры, когда спор затянулся и не известен итог, либо спор еще не передан в суд;</li>
+									<li>договорные споры, между заказчиком и исполнителем, заказчиком работ и подрядчиком;</li>
+									<li>трудовые споры;</li>
+									<li>жилищные;</li>
+									<li>медицинские;</li>
+								</ul>
+							</div>
+							<div class="price__footer">
+								<button>Заказать переговоры</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-md-6">
+						<div class="price">
+							<div class="price__head">
+								<p>Медиация для семьи</p>
+							</div>
+							<div class="price__body">
+								<h3 class="about_h3">Какие споры решает медиация</h3>
+								<ul>
+									<li>Семейные споры;</li>
+									<li>Споры между родителями и детьми;</li>
+									<li>Школьные конфликты.</li>
+								</ul>
+							</div>
+							<div class="price__footer">
+								<button>Заказать консультацию</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="team">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8">
+						<h2 class="about__title">Наша команда</h2>
+						<p class="about__text">За 12 лет мы накопили колоссальный опыт решения задач различной сложности.</p>
+					</div>
+				</div>
+				<div class="row multiple-items justify-content-center">
+					<div class="col-xl-4">
+						<img src="img2/person 1.jpg" alt="" />
+						<h4>Оксана Владимировна</h4>
+						<p>Генеральный директор</p>
+						<div class="icons">
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-xl-4">
+						<img src="img2/person 2.jpg" alt="" />
+						<h4>Ксения Владимировна</h4>
+						<p>Заместитель директора</p>
+						<div class="icons">
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-xl-4">
+						<img src="img2/person 3.jpg" alt="" />
+						<h4>Марина Рудольфовна</h4>
+						<p>Управляющий партнер</p>
+						<div class="icons">
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-xl-4">
+						<img src="img2/person 4.jpg" alt="" />
+						<h4>Дмитрий Альбертович</h4>
+						<p>Администратор</p>
+						<div class="icons">
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-xl-4">
+						<img src="img2/person 5.jpg" alt="" />
+						<h4>Владимир Васильевич</h4>
+						<p>Специалист</p>
+						<div class="icons">
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+							<a href="">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="blog">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8">
+						<h2 class="about__title">Блог</h2>
+						<p class="about__text">Делимся успешной судебной практикой.</p>
+					</div>
+				</div>
+				<div class="row left justify-content-between">
+					<div class="blog-item">
+						<img src="img2/blog 1.jpg" alt="" class="img-fluid" />
+					</div>
+					<div class="blog-item">
+						<div class="blog">
+							<a href="">Вопросы по сделкам с недвижимостью</a>
+							<div>
+								<span><i class="far fa-calendar-alt"></i> 14.07.2017</span>
+								<span><i class="far fa-file"></i>Юридическая помощь</span>
+							</div>
+							<p>
+								Профессиональная помощь юриста при покупке квартиры в новостройке необходима для защиты материальных интересов покупателя. Юристы проведут правовой анализ, который включает проверку
+								статуса земли под застройку, правоустанавливающих документов строительной компании и разрешения на строительство. Это позволит минимизировать риски столкнуться с недобросовестным
+								застройщиком или купить квартиру у компании, которая находится в процессе банкротства. Юристы также проверят схему сделки и предупредят о возможных рисках.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row right justify-content-between">
+					<div class="blog-item">
+						<img src="img2/blog 2.jpg" alt="" class="img-fluid" />
+					</div>
+					<div class="blog-item">
+						<div class="blog">
+							<a href="">Вопросы по договорам подряда</a>
+							<div>
+								<span><i class="far fa-calendar-alt"></i> 14.07.2017</span>
+								<span><i class="far fa-file"></i>Юридическая помощь</span>
+							</div>
+							<p>Юристы нашей компании разобрали 5 вопросов по договору подряда, которые мы получили от наших клиентов на этой неделе.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row left justify-content-between">
+					<div class="blog-item">
+						<img src="img2/blog 3.jpg" alt="" class="img-fluid" />
+					</div>
+					<div class="blog-item">
+						<div class="blog">
+							<a href="">Разрешение споров по договорам поставки товаров</a>
+							<div>
+								<span><i class="far fa-calendar-alt"></i> 14.07.2017</span>
+								<span><i class="far fa-file"></i>Юридическая помощь</span>
+							</div>
+							<p>
+								Дебиторская задолженность всегда будет актуальной темой, так как всегда найдется недобросовестный предприниматель, который захочет не платить / не поставлять / нарушать сроки /
+								исчезать с радаров.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-12">
+						<button class="button_blog">Посмотреть больше</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer" id="contact">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-8">
+						<h2 class="about__title">Контакты</h2>
+						<p class="about__text"></p>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-xl-3 col-md-6">
+						<div class="circle"><i class="fas fa-map-marker-alt"></i></div>
+						<p>г. Новороссийск<br />Центральный район</p>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<div class="circle"><i class="fas fa-phone fa-rotate-90"></i></div>
+						<p>+79991234567<br />+79991234567</p>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<div class="circle"><i class="fas fa-envelope"></i></div>
+						<p>qwerty@gmail.com<br />qwerty@yahoo.com</p>
+					</div>
+				</div>
+				<div class="row justify-content-center form">
+					<div class="col-xl-5"><input type="text" placeholder="Ваше Имя" /></div>
+					<div class="col-xl-5"><input type="email" placeholder="Ваша Почта" /></div>
+					<div class="col-xl-10"><textarea name="" id="" cols="30" rows="10" placeholder="Ваш Текст"></textarea></div>
+					<div class="col-xl-2 offset-xl-6"><button>Отправить</button></div>
+				</div>
+			</div>
+		</footer>
+		<footer class="rules">Copyright © 2014 - 2023 Юридическая консультация Оксаны Буланкиной</footer>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
